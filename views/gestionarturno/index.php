@@ -1,4 +1,12 @@
 <?php
+session_start();
+
+// Verificar si el usuario está autenticado
+if (!isset($_SESSION['usuario'])) {
+    header('Location: ../../index.php');
+    exit;
+}
+
 require "../template/header.php";
 ?>
 
@@ -59,8 +67,8 @@ require "../template/header.php";
                   </div>
                   <h4 class="card-title">LLAMAR</h4>
                 </div>
+              </a>
             </div>
-            </a>
           </div>
           <div id="atenderturno" class="row mt-2">
             <div class="col-lg-4 m-sm-auto">
@@ -71,8 +79,8 @@ require "../template/header.php";
                   </div>
                   <h4 class="card-title">ATENDER</h4>
                 </div>
+              </a>
             </div>
-            </a>
           </div>
           <div id="finalizarturno" class="row mt-2">
             <div class="col-lg-4 m-sm-auto">
@@ -83,8 +91,8 @@ require "../template/header.php";
                   </div>
                   <h4 class="card-title">FINALIZAR</h4>
                 </div>
+              </a>
             </div>
-            </a>
           </div>
         </div>
       </div>
@@ -92,41 +100,36 @@ require "../template/header.php";
 
     <div class="col-md-6 col-lg-6 mb-3">
       <div class="card text-center">
-
         <h5 class="card-header">Datos del Usuario</h5>
         <div class="card-body">
           <div align="center">
             <img src="../../assets/img/avatars/1.png" alt="user-avatar" class="d-block rounded mb-2" height="100" width="100" id="uploadedAvatar">
           </div>
-          <h5 class="card-title">Servicio : <span class="text-lowercase" id="nombreservicio"></span></h5>
-          <h5 class="card-title">Modulo : <span id="nombremodulo"></span></h5>
+          <h5 class="card-title">Servicio: <span class="text-lowercase" id="nombreservicio"></span></h5>
+          <h5 class="card-title">Módulo: <span id="nombremodulo"></span></h5>
           <div class="demo-inline-spacing">
-            <span class="badge bg-primary">Activos : <span id="en_espera"></span></span>
-            <span class="badge bg-danger">Atendidos : <span id="turnos_atendidos"></span></span>
-            <span class="badge bg-info">Totales : <span id="total_turnos"></span></span>
+            <span class="badge bg-primary">Activos: <span id="en_espera"></span></span>
+            <span class="badge bg-danger">Atendidos: <span id="turnos_atendidos"></span></span>
+            <span class="badge bg-info">Totales: <span id="total_turnos"></span></span>
           </div>
         </div>
-        <button type="button" Onclick="modalverturnos()" class="btn btn-primary">Ver turnos</button>
+        <button type="button" onclick="modalverturnos()" class="btn btn-primary">Ver turnos</button>
       </div>
     </div>
   </div>
 </div>
-<!-- ============================================modal de turnos=========================================================== -->
-  <div class="modal fade" id="modalturnos" tabindex="-1" aria-hidden="true">
-                          <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="modalCenterTitle">Registrar Modulo</h5>
-                                <button
-                                  type="button"
-                                  class="btn-close"
-                                  data-bs-dismiss="modal"
-                                  aria-label="Close"
-                                ></button>
-                              </div>
-                              <div class="modal-body">
-                              <div class="card-datatable table-responsive">
-                <table class="datatables-basic table border-top" id="TablaTurnos" style="width: 100%;">
+
+<!-- Modal de turnos -->
+<div class="modal fade" id="modalturnos" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCenterTitle">Lista de Turnos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card-datatable table-responsive">
+                    <table class="datatables-basic table border-top" id="TablaTurnos" style="width: 100%;">
                         <thead class="thead-light">
                             <tr>
                                 <th>Estado</th>
@@ -138,13 +141,18 @@ require "../template/header.php";
                                 <th>Salida</th>
                             </tr>
                         </thead>
+                        <tbody id="turnosBody">
+                            <!-- Los turnos se cargarán dinámicamente -->
+                        </tbody>
                     </table>
                 </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php
 require "../template/footer.php";
 ?>
+
 <script src="../../controllers/gestionarturnoController.js"></script>

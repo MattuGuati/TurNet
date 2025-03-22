@@ -1,42 +1,54 @@
+// Inicializar la interfaz
 $('#vista_numero').hide();
 $('#llamarturno').show();
 $('#atenderturno').hide();
 $('#finalizarturno').hide();
 DatosUsuario();
+
+// Cargar datos del usuario y estadísticas
 function DatosUsuario() {
-    var usuario = localStorage.getItem('usuario');
-    console.log(usuario);
+    const usuario = localStorage.getItem('usuario');
+    console.log('Usuario:', usuario);
     $.ajax({
         method: 'POST',
-        datatype: 'json',
+        dataType: 'json',
         data: {
             'accion': 'Obtenerdatosusuario',
             'datos': usuario
         },
-        url: '/cursoudemy/models/model_gestionar_turno.php',
+        url: '/cursoudemy/models/model_gestionar_turno.php'
     })
-        .then(function (response) {
-            var Data = JSON.parse(response);
-            if (Data.codigo == 0) {
-                $("#nombreservicio").html(Data.nombre_servicio);
-                $("#nombremodulo").html(Data.nombre_modulo);
-                $("#total_turnos").html(Data.total_turnos);
-                $("#en_espera").html(Data.en_espera);
-                $("#turnos_atendidos").html(Data.atendidos);
-
-            } else {
-                Swal.fire({
-                    title: 'Notificacion!',
-                    position: 'center',
-                    icon: 'error',
-                    text: 'No hay datos para mostrar',
-                    showConfirmButton: false,
-                    timer: 2000
-                });
-            }
+    .then(function (response) {
+        if (response.codigo === 0) {
+            $("#nombreservicio").html(response.nombre_servicio);
+            $("#nombremodulo").html(response.nombre_modulo);
+            $("#total_turnos").html(response.total_turnos);
+            $("#en_espera").html(response.en_espera);
+            $("#turnos_atendidos").html(response.atendidos);
+        } else {
+            Swal.fire({
+                title: 'Notificación!',
+                position: 'center',
+                icon: 'error',
+                text: 'No hay datos para mostrar',
+                showConfirmButton: false,
+                timer: 2000
+            });
+        }
+    })
+    .catch(function (error) {
+        Swal.fire({
+            title: 'Error',
+            position: 'center',
+            icon: 'error',
+            text: 'Error al cargar los datos del usuario: ' + error.message,
+            showConfirmButton: false,
+            timer: 2000
         });
+    });
 }
 
+// Llamar un turno
 function llamar_Turno() {
     Swal.fire({
         text: "Deseas Llamar El Turno",
@@ -51,36 +63,34 @@ function llamar_Turno() {
         confirmButtonText: 'Confirmar'
     }).then((result) => {
         if (result.isConfirmed) {
-            var usuario = localStorage.getItem('usuario');
-            var servicio = localStorage.getItem('servicio');
-            var modulo = localStorage.getItem('modulo');
+            const usuario = localStorage.getItem('usuario');
+            const servicio = localStorage.getItem('servicio');
+            const modulo = localStorage.getItem('modulo');
             $.ajax({
                 method: "POST",
-                datatype: "json",
+                dataType: "json",
                 data: {
                     "accion": "Llamarturno",
                     "usuario": usuario,
                     "servicio": servicio,
                     "modulo": modulo
                 },
-                url: "/cursoudemy/models/model_gestionar_turno.php",
+                url: "/cursoudemy/models/model_gestionar_turno.php"
             }).then(function (response) {
-                var datos = JSON.parse(response);
-                if (datos.codigo == 0) {
+                if (response.codigo === 0) {
                     $('#vista_numero').show();
                     $('#llamarturno').hide();
                     $('#atenderturno').show();
                     $('#finalizarturno').hide();
-                    //   $("#iddelturno").html(datos.id_turno);
-                    $("#numerodelturno").html(datos.turno);
-                    $("#documento").attr('disabled', 'disabled').val(datos.documento);
-                    $("#numero").attr('disabled', 'disabled').val(datos.numero);
-                    $("#pnombre").attr('disabled', 'disabled').val(datos.pnombre);
-                    $("#papellido").attr('disabled', 'disabled').val(datos.papellido);
-                    $("#sapellido").attr('disabled', 'disabled').val(datos.sapellido);
+                    $("#numerodelturno").html(response.turno);
+                    $("#documento").attr('disabled', 'disabled').val(response.documento);
+                    $("#numero").attr('disabled', 'disabled').val(response.numero);
+                    $("#pnombre").attr('disabled', 'disabled').val(response.pnombre);
+                    $("#papellido").attr('disabled', 'disabled').val(response.papellido);
+                    $("#sapellido").attr('disabled', 'disabled').val(response.sapellido);
                 } else {
                     Swal.fire({
-                        title: 'Notificacion!',
+                        title: 'Notificación!',
                         position: 'center',
                         icon: 'info',
                         text: 'No hay Turnos Pendientes',
@@ -88,10 +98,21 @@ function llamar_Turno() {
                         timer: 1500
                     });
                 }
+            }).catch(function (error) {
+                Swal.fire({
+                    title: 'Error',
+                    position: 'center',
+                    icon: 'error',
+                    text: 'Error al llamar el turno: ' + error.message,
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             });
         }
     });
 }
+
+// Atender un turno
 function atender_Turno() {
     Swal.fire({
         text: "Deseas Atender El Turno",
@@ -106,41 +127,50 @@ function atender_Turno() {
         confirmButtonText: 'Confirmar'
     }).then((result) => {
         if (result.isConfirmed) {
-            var usuario = localStorage.getItem('usuario');
-            var servicio = localStorage.getItem('servicio');
-            var modulo = localStorage.getItem('modulo');
+            const usuario = localStorage.getItem('usuario');
+            const servicio = localStorage.getItem('servicio');
+            const modulo = localStorage.getItem('modulo');
             $.ajax({
                 method: "POST",
-                datatype: "json",
+                dataType: "json",
                 data: {
                     "accion": "AtenderTurno",
                     "usuario": usuario,
                     "servicio": servicio,
                     "modulo": modulo
                 },
-                url: "/cursoudemy/models/model_gestionar_turno.php",
+                url: "/cursoudemy/models/model_gestionar_turno.php"
             }).then(function (response) {
-                var datos = JSON.parse(response);
-                if (datos.codigo == 0) {
+                if (response.codigo === 0) {
                     $('#vista_numero').show();
                     $('#llamarturno').hide();
                     $('#atenderturno').hide();
                     $('#finalizarturno').show();
                 } else {
                     Swal.fire({
-                        title: 'Notificacion!',
+                        title: 'Notificación!',
                         position: 'center',
                         icon: 'info',
-                        text: 'No Se logro atender El turno',
+                        text: 'No se logró atender el turno',
                         showConfirmButton: false,
                         timer: 1500
                     });
                 }
+            }).catch(function (error) {
+                Swal.fire({
+                    title: 'Error',
+                    position: 'center',
+                    icon: 'error',
+                    text: 'Error al atender el turno: ' + error.message,
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             });
         }
     });
 }
 
+// Finalizar un turno
 function finalizar_Turno() {
     DatosUsuario();
     Swal.fire({
@@ -156,28 +186,27 @@ function finalizar_Turno() {
         confirmButtonText: 'Confirmar'
     }).then((result) => {
         if (result.isConfirmed) {
-            var usuario = localStorage.getItem('usuario');
-            var servicio = localStorage.getItem('servicio');
-            var modulo = localStorage.getItem('modulo');
+            const usuario = localStorage.getItem('usuario');
+            const servicio = localStorage.getItem('servicio');
+            const modulo = localStorage.getItem('modulo');
             $.ajax({
                 method: "POST",
-                datatype: "json",
+                dataType: "json",
                 data: {
                     "accion": "Finalizarturno",
                     "usuario": usuario,
                     "servicio": servicio,
                     "modulo": modulo
                 },
-                url: "/cursoudemy/models/model_gestionar_turno.php",
+                url: "/cursoudemy/models/model_gestionar_turno.php"
             }).then(function (response) {
-                var datos = JSON.parse(response);
-                if (datos.codigo == 0) {
+                if (response.codigo === 0) {
                     $('#vista_numero').hide();
                     $('#llamarturno').show();
                     $('#atenderturno').hide();
                     $('#finalizarturno').hide();
                     Swal.fire({
-                        title: 'Exito',
+                        title: 'Éxito',
                         position: 'center',
                         icon: 'success',
                         text: 'Turno Finalizado Correctamente',
@@ -186,7 +215,7 @@ function finalizar_Turno() {
                     });
                 } else {
                     Swal.fire({
-                        title: 'Notificacion!',
+                        title: 'Notificación!',
                         position: 'center',
                         icon: 'info',
                         text: 'No hay Turnos Pendientes',
@@ -194,13 +223,22 @@ function finalizar_Turno() {
                         timer: 1500
                     });
                 }
+            }).catch(function (error) {
+                Swal.fire({
+                    title: 'Error',
+                    position: 'center',
+                    icon: 'error',
+                    text: 'Error al finalizar el turno: ' + error.message,
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             });
         }
     });
 }
 
-
-function modalverturnos(){
+// Mostrar el modal de turnos
+function modalverturnos() {
     $('#TablaTurnos').DataTable().destroy();
     var table = $("#TablaTurnos").DataTable({
         "aProcessing": true,
@@ -232,25 +270,22 @@ function modalverturnos(){
                 "copy": "Copiar",
                 "colvis": "Visibilidad"
             }
-    
         },
         ajax: {
             'type': 'POST',
             "data": {
-                'accion': 'ListarTurnos',
+                'accion': 'ListarTurnos'
             },
-            "url": "/cursoudemy/models/model_gestionar_turno.php",
-    
+            "url": "/cursoudemy/models/model_gestionar_turno.php"
         },
         columns: [
-    
             { data: "estado_turno" },
             { data: "turno" },
             { data: "nombre_servicio" },
             { data: "numero" },
             { data: "nombre" },
             { data: "tiempo_ingreso" },
-            { data: "tiempo_salida" },
+            { data: "tiempo_salida" }
         ]
     });
     $('#modalturnos').modal('show');

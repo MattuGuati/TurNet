@@ -1,79 +1,154 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  class="light-style"
-  dir="ltr"
-  data-theme="theme-default"
-  data-assets-path="../assets/"
-  data-template="vertical-menu-template-free"
->
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
-    />
-    <title>Sistema de Digiturno Pantalla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>Sanatorio Rosendo García - Pantalla de Turnos</title>
     <meta name="description" content="" />
-    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
     <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="assets/css/estilospantalla.css" />
-    <link rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
-  </head>
-  <body>
-    <div class="content-wrapper">
-        <div class="container-fluid flex-grow-1 container-p-y">
-            <div class="row">
-                <div class="card">
-                  <div class="card-body">
-                    <marquee><h1 class="text-white d-inline-block mb-0">Comuniquese a la linea de atencion al usuario</h1></marquee>
-<div class="row">
-    <div class="col-md-6 col-lg-6">
-        <div class="table-responsive border border-info card">
-            <table class="table table-bordered border-info" id="tablaTurnos">
-              <thead>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Public Sans', sans-serif;
+            background-color: #87CEEB;
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
+        }
+        .pantalla-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .logo-srg {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #003087;
+            margin-bottom: 20px;
+        }
+        .clock {
+            font-size: 1.5rem;
+            color: #003087;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #003087;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="assets/video/background.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+    <div class="pantalla-container">
+        <div class="logo-srg">SRG</div>
+        <h2>Pantalla de Turnos</h2>
+        <div class="clock" id="clock"></div>
+        <p>Lista de turnos actuales:</p>
+        <table id="turnosTable">
+            <thead>
                 <tr>
-                    <th class="text-center"><h1 class="fw-bold text-underline tamanoletra">TURNO</h1></th>
-                    <th class="text-center"><h1 class="fw-bold text-underline tamanoletra">ESTADO</h1></th>
-                    <th class="text-center"><h1 class="fw-bold text-underline tamanoletra">MODULO</h1></th>
+                    <th>Turno</th>
+                    <th>Nombre</th>
+                    <th>Módulo</th>
+                    <th>Estado</th>
                 </tr>
-              </thead>
-              <tbody>
+            </thead>
+            <tbody id="turnosBody">
+                <!-- Los turnos se cargarán dinámicamente -->
             </tbody>
-            </table>
-          </div>
-      </div>
-      <div class="col-md-6 col-lg-6">
-        <div class="text-center">
-            <h1 id="anioymes"></h1>
-            <br>
-            <h1 id="tiempohora"></h1>
-            <video style="width:100%; max-width:600px;" controls autoplay loop>
-                <source src="assets/sonidos/video.mp4" type="video/mp4">
-                Verificar Video.
-                </video>
-        </div>
-      </div>
-</div>
-    </div>
-    </div>
-    </div>
-    </div>
+        </table>
     </div>
 
-    <!-- / Content -->
-
-
-    <script src="assets/js/sweetalert2.all.min.js"></script>
     <script src="assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="assets/vendor/js/bootstrap.js"></script>
-    <script src="controllers/pantallaController.js"></script>
-  </body>
+    <script>
+        // Actualizar la hora
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // Cargar los turnos dinámicamente
+        function loadTurnos() {
+            fetch('models/model_pantalla.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: 'accion=Verturnos'
+            })
+            .then(response => response.json())
+            .then(data => {
+                const turnosBody = document.getElementById('turnosBody');
+                turnosBody.innerHTML = ''; // Limpiar la tabla
+                if (data.status && data.data.length > 0) {
+                    data.data.forEach(turno => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${turno.turno}</td>
+                            <td>${turno.nombre}</td>
+                            <td>${turno.modulo || 'N/A'}</td>
+                            <td>${turno.estado}</td>
+                        `;
+                        turnosBody.appendChild(row);
+                    });
+                } else {
+                    const row = document.createElement('tr');
+                    row.innerHTML = '<td colspan="4">No hay turnos disponibles.</td>';
+                    turnosBody.appendChild(row);
+                }
+            })
+            .catch(error => {
+                console.error('Error al cargar los turnos:', error);
+            });
+        }
+
+        // Cargar los turnos inicialmente y actualizar cada 5 segundos
+        loadTurnos();
+        setInterval(loadTurnos, 5000);
+    </script>
+</body>
 </html>

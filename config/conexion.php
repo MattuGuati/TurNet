@@ -1,9 +1,16 @@
-
 <?php
-$mysqli = new mysqli('localhost', 'root', '', 'db_digiturno');
-if($mysqli->connect_error){
-	echo $error -> $mysqli->connect_error;
+function getConnection() {
+    $host = 'localhost';
+    $dbname = 'db_digiturno';
+    $username = 'root';
+    $password = '';
+    $mysqli = new mysqli($host, $username, $password, $dbname);
+
+    if ($mysqli->connect_error) {
+        error_log('Conexión fallida: ' . $mysqli->connect_error);
+        throw new Exception('Conexión fallida: ' . $mysqli->connect_error);
+    }
+
+    return $mysqli;
 }
-// usuario de ingreso: yordis
-// contraseña de ingreso:yordis  
 ?>
