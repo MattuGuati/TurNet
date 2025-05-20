@@ -20,14 +20,21 @@ function DatosUsuario() {
     })
     .then(function (response) {
         if (response.codigo === 0) {
-            $("#nombreservicio").html(response.nombre_servicio);
-            $("#nombremodulo").html(response.nombre_modulo);
+            $("#nombreservicio").html(response.nombre_servicio || 'N/A');
+            $("#nombremodulo").html(response.nombre_modulo || 'N/A');
             $("#total_turnos").html(response.total_turnos);
             $("#en_espera").html(response.en_espera);
             $("#turnos_atendidos").html(response.atendidos);
+
+            // Ocultar la sección "Generar Turno" si el usuario es recepcionista (Box 1-6)
+            if (response.es_recepcionista) {
+                $('#generarturno').hide();
+            } else {
+                $('#generarturno').show();
+            }
         } else {
             Swal.fire({
-                title: 'Notificación!',
+                title: '¡Notificación!',
                 position: 'center',
                 icon: 'error',
                 text: 'No hay datos para mostrar',
@@ -64,8 +71,8 @@ function llamar_Turno() {
     }).then((result) => {
         if (result.isConfirmed) {
             const usuario = localStorage.getItem('usuario');
-            const servicio = localStorage.getItem('servicio');
-            const modulo = localStorage.getItem('modulo');
+            const servicio = localStorage.getItem('servicio') || ''; // Si servicio es null, usar cadena vacía
+            const modulo = localStorage.getItem('modulo') || 'N/A';
             $.ajax({
                 method: "POST",
                 dataType: "json",
@@ -82,15 +89,15 @@ function llamar_Turno() {
                     $('#llamarturno').hide();
                     $('#atenderturno').show();
                     $('#finalizarturno').hide();
-                    $("#numerodelturno").html(response.turno);
+                    $("#numerodelturno").html(response.turno); // Mostramos el DNI en lugar del número de turno
                     $("#documento").attr('disabled', 'disabled').val(response.documento);
                     $("#numero").attr('disabled', 'disabled').val(response.numero);
-                    $("#pnombre").attr('disabled', 'disabled').val(response.pnombre);
-                    $("#papellido").attr('disabled', 'disabled').val(response.papellido);
-                    $("#sapellido").attr('disabled', 'disabled').val(response.sapellido);
+                    $("#pnombre").attr('disabled', 'disabled').val(response.documento); // Usamos el DNI como nombre
+                    $("#papellido").attr('disabled', 'disabled').val('');
+                    $("#sapellido").attr('disabled', 'disabled').val('');
                 } else {
                     Swal.fire({
-                        title: 'Notificación!',
+                        title: '¡Notificación!',
                         position: 'center',
                         icon: 'info',
                         text: 'No hay Turnos Pendientes',
@@ -128,8 +135,8 @@ function atender_Turno() {
     }).then((result) => {
         if (result.isConfirmed) {
             const usuario = localStorage.getItem('usuario');
-            const servicio = localStorage.getItem('servicio');
-            const modulo = localStorage.getItem('modulo');
+            const servicio = localStorage.getItem('servicio') || ''; // Si servicio es null, usar cadena vacía
+            const modulo = localStorage.getItem('modulo') || 'N/A';
             $.ajax({
                 method: "POST",
                 dataType: "json",
@@ -148,7 +155,7 @@ function atender_Turno() {
                     $('#finalizarturno').show();
                 } else {
                     Swal.fire({
-                        title: 'Notificación!',
+                        title: '¡Notificación!',
                         position: 'center',
                         icon: 'info',
                         text: 'No se logró atender el turno',
@@ -187,8 +194,8 @@ function finalizar_Turno() {
     }).then((result) => {
         if (result.isConfirmed) {
             const usuario = localStorage.getItem('usuario');
-            const servicio = localStorage.getItem('servicio');
-            const modulo = localStorage.getItem('modulo');
+            const servicio = localStorage.getItem('servicio') || ''; // Si servicio es null, usar cadena vacía
+            const modulo = localStorage.getItem('modulo') || 'N/A';
             $.ajax({
                 method: "POST",
                 dataType: "json",
@@ -215,7 +222,7 @@ function finalizar_Turno() {
                     });
                 } else {
                     Swal.fire({
-                        title: 'Notificación!',
+                        title: '¡Notificación!',
                         position: 'center',
                         icon: 'info',
                         text: 'No hay Turnos Pendientes',
@@ -274,7 +281,7 @@ function modalverturnos() {
         ajax: {
             'type': 'POST',
             "data": {
-                'accion': 'ListarTurnos'
+                'accion': 'ListarTurnos',
             },
             "url": "/cursoudemy/models/model_gestionar_turno.php"
         },

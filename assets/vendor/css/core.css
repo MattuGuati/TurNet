@@ -367,6 +367,8 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  -webkit-appearance: textfield;
+  appearance: textfield;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -425,6 +427,8 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  -webkit-appearance: button;
+  appearance: button;
 }
 
 /* rtl:raw:
@@ -14591,7 +14595,6 @@ body {
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
   -moz-font-feature-settings: "liga" on;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 

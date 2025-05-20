@@ -13,28 +13,38 @@ try {
     $conn = getConnection();
 
     if (isset($_POST['accion']) && $_POST['accion'] == "Verturnos") {
-        $query = "SELECT t.turno, t.modulo, 
-                 CASE 
-                     WHEN t.estado_turno = 'A' THEN 'EN ESPERA'
-                     WHEN t.estado_turno = 'M' THEN 'LLAMADO'
-                     WHEN t.estado_turno = 'S' THEN 'MODULO'
-                     WHEN t.estado_turno = 'F' THEN 'ATENDIDO'
-                     ELSE 'No hay Turnos' 
-                 END AS estado,
-                 c.pnombre, c.papellido
-                 FROM db_turnos t 
-                 LEFT JOIN db_clientes c ON t.documento = c.numero
-                 WHERE t.estado_turno IN ('A', 'M', 'S', 'F') 
-                 AND DATE_FORMAT(t.tiempo_ingreso, '%Y-%m-%d') = CURDATE() 
-                 ORDER BY t.tiempo_ingreso DESC LIMIT 4";
+        // Consulta que prioriza los turnos en estado "LLAMADO" usando una subconsulta para evitar problemas de compatibilidad
+        $query = "SELECT turno, modulo, estado
+                 FROM (
+                     SELECT t.documento AS turno, 
+                            CASE 
+                                WHEN t.estado_turno = 'A' THEN 'Sin Asignar'
+                                ELSE m.nombre_modulo
+                            END AS modulo,
+                            CASE 
+                                WHEN t.estado_turno = 'A' THEN 'EN ESPERA'
+                                WHEN t.estado_turno = 'M' THEN 'LLAMADO'
+                                WHEN t.estado_turno = 'S' THEN 'ATENDIDO'
+                                WHEN t.estado_turno = 'F' THEN 'ATENDIDO'
+                                ELSE 'No hay Turnos' 
+                            END AS estado,
+                            CASE 
+                                WHEN t.estado_turno = 'M' THEN 1
+                                ELSE 2
+                            END AS prioridad,
+                            t.tiempo_ingreso
+                     FROM db_turnos t 
+                     LEFT JOIN db_modulos m ON t.modulo = m.id_modulo
+                     WHERE t.estado_turno IN ('A', 'M', 'S', 'F') 
+                     AND DATE_FORMAT(t.tiempo_ingreso, '%Y-%m-%d') = CURDATE()
+                 ) AS subquery
+                 ORDER BY prioridad ASC, tiempo_ingreso DESC 
+                 LIMIT 4";
         $result = $conn->query($query);
 
         $datos = [];
         if ($result) {
             while ($row = $result->fetch_assoc()) {
-                $row['nombre'] = ($row['pnombre'] && $row['papellido']) ? $row['pnombre'] . ' ' . $row['papellido'] : 'Desconocido';
-                unset($row['pnombre']);
-                unset($row['papellido']);
                 $datos[] = $row;
             }
             $result->free();
@@ -42,9 +52,6 @@ try {
 
         $arrTurno = $datos;
         if (!empty($arrTurno)) {
-            for ($i = 0; $i < count($arrTurno); $i++) {
-                // Aquí puedes agregar lógica adicional si es necesario
-            }
             $arrResponse = ['status' => true, 'data' => $arrTurno];
         } else {
             $arrResponse = ['status' => false, 'data' => []];
@@ -57,9 +64,8 @@ try {
 
     if (isset($_POST['accion']) && $_POST['accion'] == "ver_turno") {
         $tipo_llamado = 'PASE';
-        $stmt = $conn->prepare("SELECT t.estado_turno, c.pnombre, c.papellido, t.turno, t.modulo 
+        $stmt = $conn->prepare("SELECT t.estado_turno, t.documento, t.turno, t.modulo 
                                FROM db_turnos t
-                               LEFT JOIN db_clientes c ON t.documento = c.numero
                                WHERE t.estado_turno = ? 
                                AND DATE_FORMAT(t.tiempo_ingreso, '%Y-%m-%d') = CURDATE()");
         if (!$stmt) {
@@ -72,8 +78,7 @@ try {
 
         if ($row) {
             $respuesta = [
-                'pnombre' => $row['pnombre'] ?: 'Desconocido',
-                'papellido' => $row['papellido'] ?: '',
+                'documento' => $row['documento'] ?: 'Desconocido',
                 'turno' => $row['turno'],
                 'modulo' => $row['modulo'],
                 'su_turno_es' => $row['estado_turno']

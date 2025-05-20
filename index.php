@@ -1,13 +1,9 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="light-style" dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
-    <title>Sanatorio Rosendo García - Inicio de Sesión</title>
+    <title>SRG - Sanatorio Rosendo García</title>
     <meta name="description" content="" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,130 +15,67 @@ session_start();
     <style>
         body {
             background-color: #87CEEB;
+        }
+        .contenedor-login {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-            font-family: 'Public Sans', sans-serif;
         }
-        .login-container {
+        .tarjeta-login {
             background-color: white;
-            padding: 20px;
+            padding: 2rem;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            width: 90%;
+            width: 100%;
             max-width: 400px;
         }
-        .logo-srg {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #003087;
-            margin-bottom: 20px;
+        .tarjeta-login h1 {
+            text-align: center;
+            margin-bottom: 1rem;
         }
-        .input-container {
-            margin-bottom: 20px;
+        .tarjeta-login .form-control {
+            margin-bottom: 1rem;
         }
-        .input-container input {
-            font-size: 1.2rem;
-            padding: 10px;
+        .tarjeta-login .btn {
             width: 100%;
-            border: 2px solid #ccc;
-            border-radius: 5px;
-        }
-        .login-button {
-            background-color: #5c6bc0;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 15px;
-            font-size: 1.2rem;
-            cursor: pointer;
-            width: 100%;
-        }
-        .login-button:hover {
-            background-color: #3f51b5;
         }
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <div class="logo-srg">SRG</div>
-        <h2>Sanatorio Rosendo García</h2>
-        <p>Bienvenidos a SRG</p>
-        <div class="input-container">
-            <input type="text" id="usuario" placeholder="Usuario" />
+    <div class="contenedor-login">
+        <div class="tarjeta-login">
+            <h1>SRG</h1>
+            <h3 class="text-center">Sanatorio Rosendo García</h3>
+            <h5 class="text-center">Bienvenidos a SRG</h5>
+            <input type="text" name="usuariologin" class="form-control" placeholder="Usuario" value="box01" />
+            <input type="password" name="passwordlogin" class="form-control" placeholder="Contraseña" value="12345678" />
+            <button type="button" class="btn btn-primary" id="boton-iniciar-sesion">Iniciar Sesión</button>
         </div>
-        <div class="input-container">
-            <input type="password" id="password" placeholder="Contraseña" />
-        </div>
-        <button class="login-button" onclick="iniciarSesion()">Iniciar Sesión</button>
     </div>
 
     <script src="assets/js/sweetalert2.all.min.js"></script>
     <script src="assets/vendor/libs/jquery/jquery.js"></script>
     <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="controllers/loginController.js"></script>
     <script>
-        function iniciarSesion() {
-            const usuario = document.getElementById('usuario').value;
-            const password = document.getElementById('password').value;
+        // Depuración: Verificar que jQuery y la función IniciarSesion estén disponibles
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("jQuery cargado:", typeof jQuery !== 'undefined');
+            console.log("Función IniciarSesion definida:", typeof IniciarSesion !== 'undefined');
 
-            if (!usuario || !password) {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error',
-                    text: 'Por favor ingrese usuario y contraseña.'
+            // Depuración: Verificar que el evento del botón se registre
+            const botonIniciarSesion = document.getElementById('boton-iniciar-sesion');
+            if (botonIniciarSesion) {
+                console.log("Botón 'Iniciar Sesión' encontrado");
+                botonIniciarSesion.addEventListener('click', function() {
+                    console.log("Botón 'Iniciar Sesión' clicado");
+                    IniciarSesion();
                 });
-                return;
+            } else {
+                console.error("Botón 'Iniciar Sesión' no encontrado");
             }
-
-            Swal.fire({
-                title: 'Cargando',
-                text: 'Iniciando sesión...',
-                allowOutsideClick: false,
-                didOpen: () => {
-                    Swal.showLoading();
-                }
-            });
-
-            fetch('models/login.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
-                body: `accion=LoginUsuario&usuario=${encodeURIComponent(usuario)}&password=${encodeURIComponent(password)}`
-            })
-            .then(response => response.json())
-            .then(data => {
-                Swal.close();
-                if (data.codigo === 0) {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Éxito',
-                        text: 'Bienvenido, ' + data.mensaje,
-                        timer: 2000,
-                        showConfirmButton: false
-                    }).then(() => {
-                        window.location.href = 'views/gestionarturno/index.php'; // Redirigir al administrador de turnos
-                    });
-                } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Error',
-                        text: data.mensaje
-                    });
-                }
-            })
-            .catch(error => {
-                Swal.close();
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error',
-                    text: 'Error de conexión: ' + error.message
-                });
-            });
-        }
+        });
     </script>
 </body>
 </html>

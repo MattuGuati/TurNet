@@ -1,13 +1,15 @@
+// Conjunto para rastrear los turnos que ya han reproducido el sonido
+let turnosConSonido = new Set();
+
 $(document).ready(function() {
     setInterval(function() {
         Fechayhoraactual();
     }, 1000);
     setInterval(function() {
         TurosGestion();
-    }, 9500);
-  });
+    }, 2000); // Actualiza cada 2 segundos para detectar turnos más rápido
+});
 
-  
 function Fechayhoraactual() {
     let fecha, horas, minutos, segundos, diaSemana, dia, mes, anio;
     fecha = new Date();
@@ -18,7 +20,7 @@ function Fechayhoraactual() {
     dia = fecha.getDate();
     mes = fecha.getMonth();
     anio = fecha.getFullYear();
-    let semana = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+    let semana = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
     let diasemana = semana[diaSemana];
     let meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre'];
     let mesnombre = meses[mes];
@@ -26,7 +28,7 @@ function Fechayhoraactual() {
     let ampm;
     if (horas >= 12) {
         horas = horas - 12;
-        ampm = "PM"
+        ampm = "PM";
     } else {
         ampm = "AM";
     }
@@ -38,54 +40,52 @@ function Fechayhoraactual() {
 
 function TurosGestion() {
     $.ajax({
-      method: "POST",
-      datatype: "json",
-      data: {
-        "accion": "Verturnos",
-      },
-      url: "/cursoudemy/models/model_pantalla.php",
+        method: "POST",
+        dataType: "json",
+        data: {
+            "accion": "Verturnos",
+        },
+        url: "/cursoudemy/models/model_pantalla.php",
     }).then(function (response) {
-      const tabla = document.querySelector("#tablaTurnos tbody");
-      var datos = JSON.parse(response);
-      console.log(datos);
-      if (datos.status == true) {
-        while (tabla.firstChild) {
-          tabla.removeChild(tabla.firstChild);
+        console.log("Respuesta de model_pantalla.php:", response); // Depuración
+        const tabla = document.querySelector("#tablaTurnos tbody");
+        if (response.status == true) {
+            // Limpiar la tabla
+            while (tabla.firstChild) {
+                tabla.removeChild(tabla.firstChild);
+            }
+
+            // Agregar los turnos a la tabla
+            for (var i = 0; i < response.data.length; i++) {
+                const row = document.createElement("tr");
+                const turnoKey = `${response.data[i].turno}-${response.data[i].modulo}`; // Clave única para el turno
+
+                if (response.data[i].estado == "LLAMADO") {
+                    row.className = "movimiento"; // Aplicar la clase movimiento para "LLAMADO"
+                    console.log("Aplicando clase 'movimiento' al turno:", response.data[i]); // Depuración
+                    // Reproducir el sonido si el turno no ha sido notificado antes
+                    if (!turnosConSonido.has(turnoKey)) {
+                        const audio = new Audio('assets/sonidos/timbre.mp3');
+                        audio.play().catch(error => {
+                            console.error("Error al reproducir el sonido:", error);
+                        });
+                        turnosConSonido.add(turnoKey); // Marcar el turno como notificado
+                    }
+                } else {
+                    row.className = "bg-primary"; // Aplicar la clase bg-primary para otros estados
+                    turnosConSonido.delete(turnoKey); // Permitir que el sonido se reproduzca nuevamente si el turno vuelve a "LLAMADO"
+                }
+                row.innerHTML = `
+                    <td class="text-center"><h1 class="fw-bold text-underline tamanoletra text-white">${response.data[i].turno}</h1></td>
+                    <td class="text-center"><h1 class="fw-bold text-underline tamanoletra text-white">${response.data[i].estado}</h1></td>
+                    <td class="text-center"><h1 class="fw-bold text-underline tamanoletra text-white">${response.data[i].modulo}</h1></td>
+                `;
+                tabla.appendChild(row);
+            }
+        } else {
+            console.log("No se encontraron turnos:", response);
         }
-        for (var i = 0; i < datos.data.length; i++) {
-          const row = document.createElement("tr");
-          if(datos.data[i].estado == "LLAMADO"){
-              row.className = "movimiento";
-              Swal.fire({
-                showConfirmButton: false,
-                width: 1000,
-                timer: 5000,
-                html: '<h1><table class="table table-bordered table-striped">'+
-                '<tr>'+
-                '<th class="text-center"><h1 class="fw-bold text-underline tamanoletra">TURNO</h1></th>'+
-                '<th class="text-center"><h1 class="fw-bold text-underline tamanoletra">ESTADO</h1></th>'+
-                '<th class="text-center"><h1 class="fw-bold text-underline tamanoletra">MODULO</h1></th>'+
-                '</tr>'+
-                '<tr class="movimiento">'+
-                '<td class="text-center"><h1 class="fw-bold text-white tamanoletra"><b>'+datos.data[i].turno+'</b></h1></td>'+
-                '<td class="text-center"><h1 class="fw-bold text-white tamanoletra"><b>'+datos.data[i].estado+'</b></h1></td>'+
-                '<td class="text-center"><h1 class="fw-bold text-white tamanoletra"><b>'+datos.data[i].modulo+'</b></h1></td>'+
-                '</tr>'+
-            '</table></h1>'+
-            '<audio id="denied" autoplay controls="false" style="display:none"> <source src="assets/sonidos/timbre.mp3" /> </audio>'
-              })
-          }else{
-            row.className = "bg-primary";
-          }
-          row.innerHTML = `
-                      <td class="text-center"><h1 class="fw-bold text-underline tamanoletra text-white">${datos.data[i].turno}</h1></td>
-                      <td class="text-center"><h1 class="fw-bold text-underline tamanoletra text-white">${datos.data[i].estado}</h1></td>
-                      <td class="text-center"><h1 class="fw-bold text-underline tamanoletra text-white">${datos.data[i].modulo}</h1></td>
-                      `;
-          tabla.appendChild(row);
-        }
-      }
+    }).catch(function (error) {
+        console.error("Error al obtener turnos:", error);
     });
-  }
-
-
+}

@@ -1,13 +1,16 @@
-function Login() {
-     var usuariologin = document.getElementsByName('usuariologin')[0].value;
-      var passwordlogin = document.getElementsByName('passwordlogin')[0].value;
-    if(usuariologin == "" || usuariologin == null || usuariologin == undefined ||
-    passwordlogin == "" || passwordlogin == null || passwordlogin == undefined){
+function IniciarSesion() {
+    var usuarioLogin = document.getElementsByName('usuariologin')[0].value;
+    var contrasenaLogin = document.getElementsByName('passwordlogin')[0].value;
+
+    console.log("Intentando iniciar sesión - usuario:", usuarioLogin);
+
+    if (usuarioLogin == "" || usuarioLogin == null || usuarioLogin == undefined ||
+        contrasenaLogin == "" || contrasenaLogin == null || contrasenaLogin == undefined) {
         Swal.fire({
-            title: 'Notificacion!',
+            title: '¡Notificación!',
             position: 'center',
             icon: 'info',
-            text: 'Por Favor Ingrese Un Usuario Y una Contraseña',
+            text: 'Por favor ingrese un usuario y una contraseña',
             showConfirmButton: false,
             timer: 1500
         });
@@ -19,48 +22,58 @@ function Login() {
         setTimeout(() => {
             $.ajax({
                 method: 'POST',
-                datatype: 'json',
+                dataType: 'json',
                 data: {
                     'accion': 'LoginUsuario',
-                    'usuario': usuariologin,
-                    'password': passwordlogin
+                    'usuario': usuarioLogin,
+                    'password': contrasenaLogin
                 },
                 url: '/cursoudemy/models/login.php',
-            }).then(function (response) {
-                var data = JSON.parse(response);
-                if (data.codigo == 0) {
+            }).then(function (respuesta) {
+                console.log("Respuesta del servidor:", respuesta);
+                if (respuesta.codigo == 0) {
                     Swal.fire({
-                        title: 'Notificacion!',
+                        title: '¡Notificación!',
                         position: 'center',
                         icon: 'success',
-                        text:'Bienvenido '+data.mensaje,
+                        text: 'Bienvenido ' + respuesta.mensaje,
                         showConfirmButton: false,
                         timer: 1500
                     });
-                    localStorage.setItem('usuario', data.usuario);
-                    localStorage.setItem('servicio', data.servicio);
-                    localStorage.setItem('modulo', data.modulo);
-                    location.href = 'http://localhost/cursoudemy/views/inicio';
-                } else if (data.codigo == 1){
+                    localStorage.setItem('usuario', respuesta.usuario);
+                    localStorage.setItem('servicio', respuesta.servicio);
+                    localStorage.setItem('modulo', respuesta.modulo);
+                    location.href = 'http://localhost/cursoudemy/views/gestionarturno/';
+                } else if (respuesta.codigo == 1) {
                     Swal.fire({
-                        title: 'Notificacion!',
+                        title: '¡Notificación!',
                         position: 'center',
                         icon: 'error',
-                        text: data.mensaje,
+                        text: respuesta.mensaje,
                         showConfirmButton: false,
                         timer: 2000
                     });
-                }else {
+                } else {
                     Swal.fire({
-                        title: 'Notificacion!',
+                        title: '¡Notificación!',
                         position: 'center',
                         icon: 'error',
-                        text: data.mensaje,
+                        text: respuesta.mensaje,
                         showConfirmButton: false,
                         timer: 2000
                     });
                 }
+            }).catch(function (error) {
+                console.error("Error al iniciar sesión:", error);
+                Swal.fire({
+                    title: '¡Notificación!',
+                    position: 'center',
+                    icon: 'error',
+                    text: 'Error al iniciar sesión: ' + error.message,
+                    showConfirmButton: false,
+                    timer: 2000
+                });
             });
         }, 1000);
     }
-    }
+}

@@ -1,0 +1,1076 @@
+[25-Mar-2025 06:22:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:22:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:03 Europe/Berlin] GenerarTurno - numerodocumento: 555555
+[25-Mar-2025 06:23:03 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 555555, turno: T001
+[25-Mar-2025 06:23:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:08 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[25-Mar-2025 06:23:08 Europe/Berlin] Llamarturno - modulo_id: 7
+[25-Mar-2025 06:23:08 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[25-Mar-2025 06:23:08 Europe/Berlin] Llamarturno - Turno encontrado: id=108, turno=T001, documento=555555
+[25-Mar-2025 06:23:08 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[25-Mar-2025 06:23:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:24 Europe/Berlin] AtenderTurno - modulo_id: 7
+[25-Mar-2025 06:23:24 Europe/Berlin] AtenderTurno - Turno encontrado: id=108, turno=T001
+[25-Mar-2025 06:23:24 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[25-Mar-2025 06:23:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:32 Europe/Berlin] Finalizarturno - modulo_id: 7
+[25-Mar-2025 06:23:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:23:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:24:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:25:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:26:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:27:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:28:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:29:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:30:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:31:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:32:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:33:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:34:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:35:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:36:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:37:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:38:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:38:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:38:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:38:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:38:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:39:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:39:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:39:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:39:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:39:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:39:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:52 Europe/Berlin] GenerarTurno - numerodocumento: 55555555
+[25-Mar-2025 06:40:52 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 55555555, turno: T002
+[25-Mar-2025 06:40:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:40:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:01 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[25-Mar-2025 06:41:01 Europe/Berlin] Llamarturno - modulo_id: 7
+[25-Mar-2025 06:41:01 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[25-Mar-2025 06:41:01 Europe/Berlin] Llamarturno - Turno encontrado: id=109, turno=T002, documento=55555555
+[25-Mar-2025 06:41:01 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[25-Mar-2025 06:41:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:41:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:42:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:43:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:44:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:45:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:46:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:47:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:48:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:49:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:04 Europe/Berlin] GenerarTurno - numerodocumento: 9999
+[25-Mar-2025 06:50:04 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 9999, turno: T003
+[25-Mar-2025 06:50:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:08 Europe/Berlin] AtenderTurno - modulo_id: 7
+[25-Mar-2025 06:50:08 Europe/Berlin] AtenderTurno - Turno encontrado: id=109, turno=T002
+[25-Mar-2025 06:50:08 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[25-Mar-2025 06:50:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:12 Europe/Berlin] Finalizarturno - modulo_id: 7
+[25-Mar-2025 06:50:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:16 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[25-Mar-2025 06:50:16 Europe/Berlin] Llamarturno - modulo_id: 7
+[25-Mar-2025 06:50:16 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[25-Mar-2025 06:50:16 Europe/Berlin] Llamarturno - Turno encontrado: id=110, turno=T003, documento=9999
+[25-Mar-2025 06:50:16 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[25-Mar-2025 06:50:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:50:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:51:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:52:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:53:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:54:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:55:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:56:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:57:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:57:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:57:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:58:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 06:59:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:00:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:01:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:02:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:03:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:04:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:05:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:06:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:07:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:08:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:09:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:10:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:28 Europe/Berlin] AtenderTurno - modulo_id: 7
+[25-Mar-2025 07:11:28 Europe/Berlin] AtenderTurno - Turno encontrado: id=110, turno=T003
+[25-Mar-2025 07:11:28 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[25-Mar-2025 07:11:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:30 Europe/Berlin] Finalizarturno - modulo_id: 7
+[25-Mar-2025 07:11:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:36 Europe/Berlin] GenerarTurno - numerodocumento: 000
+[25-Mar-2025 07:11:36 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 000, turno: T004
+[25-Mar-2025 07:11:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:47 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[25-Mar-2025 07:11:47 Europe/Berlin] Llamarturno - modulo_id: 7
+[25-Mar-2025 07:11:47 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[25-Mar-2025 07:11:47 Europe/Berlin] Llamarturno - Turno encontrado: id=111, turno=T004, documento=000
+[25-Mar-2025 07:11:47 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[25-Mar-2025 07:11:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:54 Europe/Berlin] AtenderTurno - modulo_id: 7
+[25-Mar-2025 07:11:54 Europe/Berlin] AtenderTurno - Turno encontrado: id=111, turno=T004
+[25-Mar-2025 07:11:54 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[25-Mar-2025 07:11:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:11:57 Europe/Berlin] Finalizarturno - modulo_id: 7
+[25-Mar-2025 07:11:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:19 Europe/Berlin] GenerarTurno - numerodocumento: 11111
+[25-Mar-2025 07:12:19 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 11111, turno: T005
+[25-Mar-2025 07:12:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:12:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:13:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:14:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:15:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:16:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:17:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:18:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:19:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:20:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:21:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:54 Europe/Berlin] GenerarTurno - numerodocumento: 5555
+[25-Mar-2025 07:22:54 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 5555, turno: T006
+[25-Mar-2025 07:22:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:22:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:00 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[25-Mar-2025 07:23:00 Europe/Berlin] Llamarturno - modulo_id: 7
+[25-Mar-2025 07:23:00 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[25-Mar-2025 07:23:00 Europe/Berlin] Llamarturno - Turno encontrado: id=112, turno=T005, documento=11111
+[25-Mar-2025 07:23:00 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[25-Mar-2025 07:23:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:06 Europe/Berlin] AtenderTurno - modulo_id: 7
+[25-Mar-2025 07:23:06 Europe/Berlin] AtenderTurno - Turno encontrado: id=112, turno=T005
+[25-Mar-2025 07:23:06 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[25-Mar-2025 07:23:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:09 Europe/Berlin] Finalizarturno - modulo_id: 7
+[25-Mar-2025 07:23:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[25-Mar-2025 07:23:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:36:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:37:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:38:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:39:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:40:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:41:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:42:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:43:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:44:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:45:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:46:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:47:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:48:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:49:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:50:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:51:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:52:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:53:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:54:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:55:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:56:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:57:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:58:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 01:59:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:00:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:01:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:02:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:03:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:04:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:05:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:06:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:07:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:08:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:09:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:10:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:11:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:12:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:13:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:14:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:15:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:16:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:17:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:18:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:19:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:20:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:21:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:22:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:23:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:24:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:25:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:26:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:27:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:28:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:29:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:30:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:31:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:32:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:33:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:34:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:35:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:36:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:37:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:38:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:39:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:40:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 02:41:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:21:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:22:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:23:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:24:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:25:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:26:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:27:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:28:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:29:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:30:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:30:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:30:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 03:30:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:12:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:12:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:13:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:14:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:15:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:16:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:17:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:18:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:19:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:20:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:21:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:22:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:23:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:24:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:25:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:26:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:27:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:28:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:29:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:30:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:31:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:32:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:33:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:34:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:35:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:36:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:37:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:38:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:39:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:40:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:41:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:42:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:43:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:44:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:45:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:46:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:47:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:48:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:49:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:50:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:51:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:52:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:53:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:54:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:55:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:56:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:57:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:58:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 22:59:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:00:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:01:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:02:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:03:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:04:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:05:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:06:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:07:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:08:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:09:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:10:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:11:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:12:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:13:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:14:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:15:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:16:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:17:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:18:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:19:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:20:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:21:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:22:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:23:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:24:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[26-Mar-2025 23:25:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:30:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:31:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:32:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:33:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:34:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:35:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:36:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:37:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:37:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:37:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:37:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:37:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:37:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:12 Europe/Berlin] Intento de inicio de sesión - usuario: box01
+[27-Mar-2025 03:38:12 Europe/Berlin] Usuario encontrado - usuario: box01, contraseña en DB: $2y$10$HO86Y4ct3u.Pz6/kC0hfwO6jFJPlEGv28biozMCKMrM7VnswCGR66
+[27-Mar-2025 03:38:12 Europe/Berlin] Contraseña verificada correctamente - usuario: box01
+[27-Mar-2025 03:38:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:19 Europe/Berlin] GenerarTurno - numerodocumento: 8888
+[27-Mar-2025 03:38:19 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 8888, turno: T001
+[27-Mar-2025 03:38:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:38:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:09 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[27-Mar-2025 03:39:09 Europe/Berlin] Llamarturno - modulo_id: 7
+[27-Mar-2025 03:39:09 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[27-Mar-2025 03:39:09 Europe/Berlin] Llamarturno - Turno encontrado: id=114, turno=T001, documento=8888
+[27-Mar-2025 03:39:09 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[27-Mar-2025 03:39:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:39:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:40:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:41:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:42:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:43:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:44:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:45:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:46:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:47:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:48:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:49:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "LLAMADO" in C:\xampp\htdocs\cursoudemy\models\model_pantalla.php on line 35
+[27-Mar-2025 03:50:48 Europe/Berlin] GenerarTurno - numerodocumento: 888800000
+[27-Mar-2025 03:50:48 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 888800000, turno: T002
+[27-Mar-2025 03:51:06 Europe/Berlin] GenerarTurno - numerodocumento: 44444
+[27-Mar-2025 03:51:06 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 44444, turno: T003
+[27-Mar-2025 03:51:17 Europe/Berlin] GenerarTurno - numerodocumento: 22222
+[27-Mar-2025 03:51:17 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 22222, turno: T004
+[27-Mar-2025 03:57:34 Europe/Berlin] AtenderTurno - modulo_id: 7
+[27-Mar-2025 03:57:34 Europe/Berlin] AtenderTurno - Turno encontrado: id=114, turno=T001
+[27-Mar-2025 03:57:34 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[27-Mar-2025 03:57:44 Europe/Berlin] Finalizarturno - modulo_id: 7
+[27-Mar-2025 04:02:41 Europe/Berlin] GenerarTurno - numerodocumento: 8888
+[27-Mar-2025 04:02:41 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 8888, turno: T001
+[27-Mar-2025 04:02:54 Europe/Berlin] GenerarTurno - numerodocumento: 000000
+[27-Mar-2025 04:02:54 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 000000, turno: T002
+[27-Mar-2025 04:03:00 Europe/Berlin] GenerarTurno - numerodocumento: 666666
+[27-Mar-2025 04:03:00 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 666666, turno: T003
+[27-Mar-2025 04:03:07 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[27-Mar-2025 04:03:07 Europe/Berlin] Llamarturno - modulo_id: 7
+[27-Mar-2025 04:03:07 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[27-Mar-2025 04:03:07 Europe/Berlin] Llamarturno - Turno encontrado: id=118, turno=T001, documento=8888
+[27-Mar-2025 04:03:07 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[27-Mar-2025 04:03:13 Europe/Berlin] AtenderTurno - modulo_id: 7
+[27-Mar-2025 04:03:13 Europe/Berlin] AtenderTurno - Turno encontrado: id=118, turno=T001
+[27-Mar-2025 04:03:13 Europe/Berlin] AtenderTurno - Filas afectadas al actualizar a estado S: 1
+[27-Mar-2025 04:03:32 Europe/Berlin] Finalizarturno - modulo_id: 7
+[27-Mar-2025 04:03:36 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[27-Mar-2025 04:03:36 Europe/Berlin] Llamarturno - modulo_id: 7
+[27-Mar-2025 04:03:36 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[27-Mar-2025 04:03:36 Europe/Berlin] Llamarturno - Turno encontrado: id=119, turno=T002, documento=000000
+[27-Mar-2025 04:03:36 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[30-Mar-2025 07:36:08 Europe/Berlin] AtenderTurno - modulo_id: 7
+[30-Mar-2025 07:36:08 Europe/Berlin] AtenderTurno - No se encontraron turnos en estado M para usuario: box01, modulo_id: 7. Turnos disponibles: []
+[30-Mar-2025 07:36:19 Europe/Berlin] GenerarTurno - numerodocumento: 222
+[30-Mar-2025 07:36:19 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 222, turno: T001
+[30-Mar-2025 07:36:24 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[30-Mar-2025 07:36:24 Europe/Berlin] Llamarturno - modulo_id: 7
+[30-Mar-2025 07:36:24 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[30-Mar-2025 07:36:24 Europe/Berlin] Llamarturno - Turno encontrado: id=121, turno=T001, documento=222
+[30-Mar-2025 07:36:24 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[30-Mar-2025 07:37:15 Europe/Berlin] GenerarTurno - numerodocumento: 2222
+[30-Mar-2025 07:37:15 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 2222, turno: T002
+[04-Apr-2025 04:47:29 Europe/Berlin] GenerarTurno - numerodocumento: 158
+[04-Apr-2025 04:47:29 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 158, turno: T001
+[04-Apr-2025 04:47:53 Europe/Berlin] Llamarturno - usuario: box01, modulo: Box 01, servicio: null
+[04-Apr-2025 04:47:53 Europe/Berlin] Llamarturno - modulo_id: 7
+[04-Apr-2025 04:47:53 Europe/Berlin] Llamarturno - Buscando cualquier turno en espera (servicio vacío)
+[04-Apr-2025 04:47:53 Europe/Berlin] Llamarturno - Turno encontrado: id=123, turno=T001, documento=158
+[04-Apr-2025 04:47:53 Europe/Berlin] Llamarturno - Filas afectadas al actualizar a estado M: 1
+[04-Apr-2025 04:48:43 Europe/Berlin] GenerarTurno - numerodocumento: 888888
+[04-Apr-2025 04:48:43 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 888888, turno: T002
+[04-Apr-2025 06:12:25 Europe/Berlin] GenerarTurno - numerodocumento: 259635867
+[04-Apr-2025 06:12:25 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 259635867, turno: T001
+[04-Apr-2025 06:22:05 Europe/Berlin] GenerarTurno - numerodocumento: 86666
+[04-Apr-2025 06:22:05 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 86666, turno: T002
+[04-Apr-2025 06:22:12 Europe/Berlin] GenerarTurno - numerodocumento: 555555
+[04-Apr-2025 06:22:12 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 555555, turno: T003
+[04-Apr-2025 06:22:28 Europe/Berlin] GenerarTurno - numerodocumento: 965807
+[04-Apr-2025 06:22:28 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 965807, turno: T004
+[04-Apr-2025 06:38:10 Europe/Berlin] GenerarTurno - numerodocumento: 649798
+[04-Apr-2025 06:38:10 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 649798, turno: T005
+[04-Apr-2025 06:38:22 Europe/Berlin] GenerarTurno - numerodocumento: 44
+[04-Apr-2025 06:38:22 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 44, turno: T006
+[04-Apr-2025 06:42:11 Europe/Berlin] GenerarTurno - numerodocumento: 77723333
+[04-Apr-2025 06:42:11 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 77723333, turno: T007
+[04-Apr-2025 06:42:41 Europe/Berlin] GenerarTurno - numerodocumento: 44444
+[04-Apr-2025 06:42:41 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 44444, turno: T008
+[04-Apr-2025 06:46:11 Europe/Berlin] GenerarTurno - numerodocumento: 111
+[04-Apr-2025 06:46:11 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 111, turno: T009
+[04-Apr-2025 06:53:27 Europe/Berlin] GenerarTurno - numerodocumento: 88888222
+[04-Apr-2025 06:53:27 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 88888222, turno: T010
+[04-Apr-2025 06:54:56 Europe/Berlin] GenerarTurno - numerodocumento: 33333332
+[04-Apr-2025 06:54:56 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 33333332, turno: T011
+[04-Apr-2025 06:56:38 Europe/Berlin] GenerarTurno - numerodocumento: 22288885
+[04-Apr-2025 06:56:38 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 22288885, turno: T012
+[04-Apr-2025 06:58:23 Europe/Berlin] GenerarTurno - numerodocumento: 22222
+[04-Apr-2025 06:58:23 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 22222, turno: T013
+[04-Apr-2025 06:59:04 Europe/Berlin] GenerarTurno - numerodocumento: 00222888
+[04-Apr-2025 06:59:04 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 00222888, turno: T014
+[04-Apr-2025 07:04:59 Europe/Berlin] GenerarTurno - numerodocumento: 44477711
+[04-Apr-2025 07:04:59 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 44477711, turno: T015
+[04-Apr-2025 07:05:05 Europe/Berlin] GenerarTurno - numerodocumento: 58558
+[04-Apr-2025 07:05:05 Europe/Berlin] GenerarTurno - Turno generado correctamente para documento: 58558, turno: T016

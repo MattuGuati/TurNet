@@ -1,131 +1,78 @@
 <?php
-// Ajustar la ruta para incluir config/conexion.php desde models/
+// Incluir el archivo de conexión
 if (!file_exists('../config/conexion.php')) {
-    error_log('Archivo config/conexion.php no encontrado.');
+    error_log('Archivo config/conexion.php no encontrado en model_totem.php.');
     header('Content-Type: application/json');
-    echo json_encode(['success' => false, 'message' => 'Error del servidor: Archivo de configuración no encontrado.']);
+    echo json_encode(['status' => false, 'message' => 'Error del servidor: Archivo de configuración no encontrado.']);
     exit;
 }
 
 require_once '../config/conexion.php';
 
-// Asegurarse de que no haya salida antes del JSON
-ob_start();
+try {
+    $conn = getConnection();
 
-header('Content-Type: application/json');
+    if (isset($_POST['accion']) && $_POST['accion'] == "GenerarTurno") {
+        $numerodocumento = isset($_POST['numerodocumento']) ? trim($_POST['numerodocumento']) : '';
+        error_log("GenerarTurno - numerodocumento: $numerodocumento");
 
-$action = isset($_POST['action']) ? $_POST['action'] : '';
-
-switch ($action) {
-    case 'createTurno':
-        $documento = isset($_POST['documento']) ? trim($_POST['documento']) : '';
-        $servicio = isset($_POST['servicio']) ? trim($_POST['servicio']) : '';
-
-        if (empty($documento) || empty($servicio)) {
-            ob_end_clean();
-            echo json_encode(['success' => false, 'message' => 'Datos incompletos.']);
+        if (empty($numerodocumento)) {
+            error_log("GenerarTurno - Número de documento vacío.");
+            header('Content-Type: application/json');
+            echo json_encode(['status' => false, 'message' => 'Número de documento vacío.']);
             exit;
         }
 
-        try {
-            $conn = getConnection();
-
-            // Buscar o crear cliente
-            $stmt = $conn->prepare("SELECT id, pnombre, papellido FROM db_clientes WHERE documento = ? LIMIT 1");
-            if (!$stmt) {
-                throw new Exception('Error al preparar la consulta: ' . $conn->error);
-            }
-            $stmt->bind_param('s', $documento);
-            $stmt->execute();
-            $result = $stmt->get_result();
-
-            if ($result->num_rows > 0) {
-                $cliente = $result->fetch_assoc();
-                $cliente_id = $cliente['id'];
-                $pnombre = $cliente['pnombre'];
-                $papellido = $cliente['papellido'];
-            } else {
-                $stmt = $conn->prepare("INSERT INTO db_clientes (documento, numero, pnombre, papellido, sexo, fecha_registro) VALUES (?, ?, ?, ?, ?, CURDATE())");
-                if (!$stmt) {
-                    throw new Exception('Error al preparar la consulta: ' . $conn->error);
-                }
-                $numero = $documento;
-                $pnombre = 'Desconocido';
-                $papellido = 'Desconocido';
-                $sexo = 'M';
-                $stmt->bind_param('sssss', $documento, $numero, $pnombre, $papellido, $sexo);
-                $stmt->execute();
-                $cliente_id = $stmt->insert_id;
-            }
-
-            // Obtener ID del servicio
-            $stmt = $conn->prepare("SELECT id FROM db_servicios WHERE nombre_servicio = ? LIMIT 1");
-            if (!$stmt) {
-                throw new Exception('Error al preparar la consulta: ' . $conn->error);
-            }
-            $stmt->bind_param('s', $servicio);
-            $stmt->execute();
-            $result = $stmt->get_result();
-            if ($result->num_rows == 0) {
-                ob_end_clean();
-                echo json_encode(['success' => false, 'message' => 'Servicio no encontrado: ' . $servicio]);
-                exit;
-            }
-            $servicio_row = $result->fetch_assoc();
-            $servicio_id = $servicio_row['id'];
-
-            // Generar número de turno
-            $stmt = $conn->prepare("SELECT COUNT(*) as total FROM db_turnos WHERE DATE(tiempo_ingreso) = CURDATE()");
-            if (!$stmt) {
-                throw new Exception('Error al preparar la consulta: ' . $conn->error);
-            }
-            $stmt->execute();
-            $result = $stmt->get_result();
-            $row = $result->fetch_assoc();
-            $numero_turno = sprintf("T%03d", $row['total'] + 1);
-
-            // Seleccionar un módulo disponible (box)
-            $stmt = $conn->prepare("SELECT id_modulo, nombre_modulo FROM db_modulos WHERE estado = 'A' ORDER BY RAND() LIMIT 1");
-            if (!$stmt) {
-                throw new Exception('Error al preparar la consulta: ' . $conn->error);
-            }
-            $stmt->execute();
-            $result = $stmt->get_result();
-            if ($result->num_rows == 0) {
-                ob_end_clean();
-                echo json_encode(['success' => false, 'message' => 'No hay módulos disponibles.']);
-                exit;
-            }
-            $modulo = $result->fetch_assoc();
-            $modulo_id = $modulo['id_modulo'];
-            $modulo_nombre = $modulo['nombre_modulo'];
-
-            // Crear turno
-            $stmt = $conn->prepare("INSERT INTO db_turnos (cliente_id, servicio_id, tipo_servicio, turno, estado_turno, modulo, pnombre, papellido, tiempo_ingreso) VALUES (?, ?, ?, ?, 'A', ?, ?, ?, NOW())");
-            if (!$stmt) {
-                throw new Exception('Error al preparar la consulta: ' . $conn->error);
-            }
-            $stmt->bind_param('iiissss', $cliente_id, $servicio_id, $servicio_id, $numero_turno, $modulo_nombre, $pnombre, $papellido);
-            $stmt->execute();
-
-            // Limpiar el buffer de salida y enviar la respuesta
-            ob_end_clean();
-            echo json_encode([
-                'success' => true,
-                'numero_turno' => $numero_turno,
-                'modulo' => $modulo_nombre
-            ]);
-        } catch (Exception $e) {
-            error_log('Error al crear el turno: ' . $e->getMessage());
-            ob_end_clean();
-            echo json_encode(['success' => false, 'message' => 'Error al crear el turno: ' . $e->getMessage()]);
+        // Generar el número de turno (por ejemplo, T001, T002, etc.)
+        $stmt = $conn->prepare("SELECT COUNT(*) AS total FROM db_turnos WHERE DATE_FORMAT(tiempo_ingreso, '%Y-%m-%d') = CURDATE()");
+        if (!$stmt) {
+            throw new Exception('Error al preparar la consulta: ' . $conn->error);
         }
-        break;
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $row = $result->fetch_assoc();
+        $total_turnos = $row['total'] + 1; // Incrementar el contador para el nuevo turno
+        $stmt->close();
 
-    default:
-        ob_end_clean();
-        echo json_encode(['success' => false, 'message' => 'Acción no válida.']);
-        break;
+        // Formatear el número de turno (por ejemplo, T001)
+        $turno = sprintf("T%03d", $total_turnos);
+
+        // Asignar el módulo "Sin Asignar" (id_modulo 0) por defecto
+        $modulo_default = 0;
+
+        // Insertar el turno en la base de datos
+        $stmt = $conn->prepare("INSERT INTO db_turnos (documento, turno, estado_turno, modulo, tiempo_ingreso) VALUES (?, ?, 'A', ?, NOW())");
+        if (!$stmt) {
+            $error_message = 'Error al preparar la consulta: ' . $conn->error;
+            error_log($error_message);
+            throw new Exception($error_message);
+        }
+        $stmt->bind_param("ssi", $numerodocumento, $turno, $modulo_default);
+        $stmt->execute();
+        $affected_rows = $stmt->affected_rows;
+        $stmt->close();
+
+        if ($affected_rows > 0) {
+            error_log("GenerarTurno - Turno generado correctamente para documento: $numerodocumento, turno: $turno");
+            $respuesta = ['status' => true, 'message' => 'Turno generado correctamente.', 'turno' => $turno];
+        } else {
+            error_log("GenerarTurno - No se pudo generar el turno para documento: $numerodocumento");
+            $respuesta = ['status' => false, 'message' => 'No se pudo generar el turno.'];
+        }
+
+        header('Content-Type: application/json');
+        echo json_encode($respuesta);
+        exit;
+    }
+
+    // Si no se especifica una acción válida
+    error_log("Acción no válida en model_totem.php: " . (isset($_POST['accion']) ? $_POST['accion'] : 'No definida'));
+    header('Content-Type: application/json');
+    echo json_encode(['status' => false, 'message' => 'Acción no válida.']);
+} catch (Exception $e) {
+    error_log('Error en model_totem.php: ' . $e->getMessage());
+    header('Content-Type: application/json');
+    echo json_encode(['status' => false, 'message' => 'Error en el servidor: ' . $e->getMessage()]);
 }
 
 $conn->close();

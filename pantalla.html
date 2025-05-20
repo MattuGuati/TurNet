@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="light-style" dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
     <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css" />
+    <link rel="stylesheet" href="assets/css/estilospantalla.css" />
     <style>
         body {
             margin: 0;
@@ -18,137 +20,158 @@
             background-color: #87CEEB;
             position: relative;
             height: 100vh;
-            overflow: hidden;
+            overflow: auto; /* Permitir scroll si es necesario */
         }
-        video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-            opacity: 0.5;
+        .content-wrapper {
+            padding: 5px; /* Reducir padding */
         }
-        .pantalla-container {
+        .card {
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            width: 90%;
-            max-width: 600px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
         }
-        .logo-srg {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #003087;
-            margin-bottom: 20px;
+        .card-body {
+            padding: 5px; /* Reducir padding */
         }
-        .clock {
-            font-size: 1.5rem;
-            color: #003087;
-            margin-bottom: 20px;
+        .table-responsive {
+            margin-top: 5px;
         }
-        table {
+        .table-bordered {
+            border: 2px solid #003087;
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+            table-layout: fixed; /* Fijar el ancho de las columnas */
         }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
+        .table-bordered th, .table-bordered td {
+            border: 1px solid #003087;
+            padding: 4px; /* Reducir padding */
             text-align: center;
+            white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+            overflow: hidden;
+            text-overflow: ellipsis; /* Mostrar puntos suspensivos si el texto es demasiado largo */
         }
-        th {
+        /* Definir el ancho de las columnas */
+        .table-bordered th:nth-child(1), .table-bordered td:nth-child(1) {
+            width: 30%; /* DNI */
+        }
+        .table-bordered th:nth-child(2), .table-bordered td:nth-child(2) {
+            width: 40%; /* ESTADO - Más espacio para "LLAMADO" */
+        }
+        .table-bordered th:nth-child(3), .table-bordered td:nth-child(3) {
+            width: 30%; /* BOX */
+        }
+        /* Aumentar especificidad para los encabezados */
+        .table-bordered thead th, 
+        .table-bordered thead th h1 {
+            background-color: #003087 !important;
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+        /* Asegurar que .bg-primary no interfiera con los colores deseados */
+        .table-bordered tbody tr.bg-primary {
+            background-color: #4a90e2 !important; /* Azul más claro para turnos creados */
+            color: white !important;
+        }
+        .table-bordered tbody tr.movimiento {
+            background-color: #ff0000 !important; /* Fondo rojo para "LLAMADO" */
+            color: white !important;
+        }
+        .text-underline {
+            text-decoration: underline;
+        }
+        .text-white {
+            color: white !important;
+        }
+        #anioymes, #tiempohora {
+            font-size: 1.5rem; /* Aumentar tamaño */
+            color: #003087;
+            margin-bottom: 5px;
+            white-space: nowrap; /* Mostrar en una sola línea */
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+        }
+        marquee {
             background-color: #003087;
-            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 5px;
         }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
+        /* Responsive design */
+        @media (max-width: 768px) {
+            #anioymes, #tiempohora {
+                font-size: 1.2rem;
+            }
+            .card-body {
+                padding: 3px;
+            }
+            .content-wrapper {
+                padding: 3px;
+            }
+            .table-bordered th, .table-bordered td {
+                padding: 2px;
+            }
+        }
+        @media (max-width: 480px) {
+            #anioymes, #tiempohora {
+                font-size: 1rem;
+            }
+            .card-body {
+                padding: 2px;
+            }
+            .content-wrapper {
+                padding: 2px;
+            }
+            .table-bordered th, .table-bordered td {
+                padding: 1px;
+            }
         }
     </style>
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="assets/video/background.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
-    <div class="pantalla-container">
-        <div class="logo-srg">SRG</div>
-        <h2>Pantalla de Turnos</h2>
-        <div class="clock" id="clock"></div>
-        <p>Lista de turnos actuales:</p>
-        <table id="turnosTable">
-            <thead>
-                <tr>
-                    <th>Turno</th>
-                    <th>Nombre</th>
-                    <th>Módulo</th>
-                    <th>Estado</th>
-                </tr>
-            </thead>
-            <tbody id="turnosBody">
-                <!-- Los turnos se cargarán dinámicamente -->
-            </tbody>
-        </table>
+    <div class="content-wrapper">
+        <div class="container-fluid flex-grow-1 container-p-y">
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <marquee><h1 class="text-white d-inline-block mb-0">Comuniquese a la linea de atencion al usuario</h1></marquee>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered border-info" id="tablaTurnos">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center"><h1 class="fw-bold text-underline tamanoletra">DNI</h1></th>
+                                                <th class="text-center"><h1 class="fw-bold text-underline tamanoletra">ESTADO</h1></th>
+                                                <th class="text-center"><h1 class="fw-bold text-underline tamanoletra">BOX</h1></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="text-center">
+                                    <h1 id="anioymes" class="fuentereloj"></h1>
+                                    <br>
+                                    <h1 id="tiempohora" class="fuentereloj"></h1>
+                                    <video style="width:100%; max-width:600px;" autoplay muted loop controls>
+                                        <source src="assets/sonidos/video.mp4" type="video/mp4">
+                                        Tu navegador no soporta el elemento de video.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <script src="assets/js/sweetalert2.all.min.js"></script>
     <script src="assets/vendor/libs/jquery/jquery.js"></script>
-    <script>
-        // Actualizar la hora
-        function updateClock() {
-            const now = new Date();
-            const hours = String(now.getHours()).padStart(2, '0');
-            const minutes = String(now.getMinutes()).padStart(2, '0');
-            const seconds = String(now.getSeconds()).padStart(2, '0');
-            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
-        }
-        setInterval(updateClock, 1000);
-        updateClock();
-
-        // Cargar los turnos dinámicamente
-        function loadTurnos() {
-            fetch('models/model_pantalla.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
-                body: 'accion=Verturnos'
-            })
-            .then(response => response.json())
-            .then(data => {
-                const turnosBody = document.getElementById('turnosBody');
-                turnosBody.innerHTML = ''; // Limpiar la tabla
-                if (data.status && data.data.length > 0) {
-                    data.data.forEach(turno => {
-                        const row = document.createElement('tr');
-                        row.innerHTML = `
-                            <td>${turno.turno}</td>
-                            <td>${turno.nombre}</td>
-                            <td>${turno.modulo || 'N/A'}</td>
-                            <td>${turno.estado}</td>
-                        `;
-                        turnosBody.appendChild(row);
-                    });
-                } else {
-                    const row = document.createElement('tr');
-                    row.innerHTML = '<td colspan="4">No hay turnos disponibles.</td>';
-                    turnosBody.appendChild(row);
-                }
-            })
-            .catch(error => {
-                console.error('Error al cargar los turnos:', error);
-            });
-        }
-
-        // Cargar los turnos inicialmente y actualizar cada 5 segundos
-        loadTurnos();
-        setInterval(loadTurnos, 5000);
-    </script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="controllers/pantallaController.js"></script>
 </body>
 </html>

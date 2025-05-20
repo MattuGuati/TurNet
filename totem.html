@@ -1,155 +1,231 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  class="light-style"
-  dir="ltr"
-  data-theme="theme-default"
-  data-assets-path="assets/"
-  data-template="vertical-menu-template-free"
->
-  <head>
+<html lang="es" class="light-style" dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
-    />
-    <title>Sanatorio Rosendo García - Totem de Turnos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>SRG - Ingrese su número de documento</title>
     <meta name="description" content="" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/estilostotem.css" />
-    <link rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css" />
     <style>
-      body {
-        background-color: #87CEEB;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        font-family: 'Public Sans', sans-serif;
-      }
-      .totem-container {
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        width: 90%;
-        max-width: 600px;
-      }
-      .logo-srg {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #003087;
-        margin-bottom: 20px;
-      }
-      .input-container {
-        margin-bottom: 20px;
-      }
-      #documento {
-        font-size: 1.5rem;
-        padding: 10px;
-        width: 100%;
-        text-align: center;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-      }
-      .keyboard {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        margin-bottom: 20px;
-      }
-      .keyboard button {
-        background-color: white;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        padding: 20px;
-        font-size: 1.5rem;
-        color: black;
-        cursor: pointer;
-      }
-      .keyboard button:hover {
-        background-color: #f0f0f0;
-      }
-      .action-buttons {
-        display: flex;
-        justify-content: space-between;
-      }
-      .action-buttons button {
-        background-color: white;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        padding: 15px;
-        font-size: 1.2rem;
-        color: black;
-        cursor: pointer;
-        width: 45%;
-      }
-      .action-buttons button:hover {
-        background-color: #f0f0f0;
-      }
-      .services-list {
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .service-item {
-        background-color: white;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        padding: 15px;
-        font-size: 1.2rem;
-        color: black;
-        cursor: pointer;
-      }
-      .service-item:hover {
-        background-color: #f0f0f0;
-      }
+        body {
+            background-color: #87CEEB;
+            font-family: 'Public Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            cursor: none; /* Oculta el cursor */
+            overflow: hidden; /* Evita el desplazamiento */
+        }
+        .main-container {
+            width: 100%;
+            max-width: 600px; /* Coincide con el ancho del contenedor-totem */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Centra los elementos verticalmente */
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+        .contenedor-totem {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+        .contenedor-totem h1 {
+            margin-bottom: 1rem;
+            color: #003087;
+        }
+        .contenedor-totem h3 {
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+        .contenedor-totem .form-control {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            text-align: center;
+            border: 2px solid #003087;
+            border-radius: 5px;
+        }
+        .contenedor-botones {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            width: 100%;
+            max-width: 600px; /* Coincide con el ancho del contenedor-totem */
+            justify-items: center;
+            padding: 0 2rem; /* Añade padding para alinear con el contenedor-totem */
+            box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+            margin-top: auto; /* Empuja el teclado hacia abajo */
+            margin-bottom: 20px; /* Añade un margen inferior para fijar la posición */
+        }
+        .contenedor-botones button {
+            width: 80px;
+            height: 80px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            border: none;
+            cursor: none; /* Oculta el cursor en los botones */
+        }
+        .contenedor-botones .btn-borrar {
+            background-color: #dc3545;
+            color: white;
+            grid-column: 1;
+            grid-row: 4;
+        }
+        .contenedor-botones .btn-ok {
+            background-color: #28a745;
+            color: white;
+            grid-column: 3;
+            grid-row: 4;
+        }
+        .contenedor-botones .btn-numero {
+            background-color: #f8f9fa;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contenedor-botones .btn-numero.zero {
+            grid-column: 2;
+            grid-row: 4;
+        }
+        /* Asegura que SweetAlert2 no afecte el diseño */
+        .swal2-popup {
+            position: fixed !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            z-index: 1000 !important;
+        }
     </style>
-  </head>
-  <body>
-    <div class="totem-container">
-      <div class="logo-srg">SRG</div>
-      <h2>Ingrese su número de documento</h2>
-      <div class="input-container">
-        <input type="text" id="documento" readonly placeholder="Número de documento" />
-      </div>
-      <div class="keyboard">
-        <button onclick="addNumber('1')">1</button>
-        <button onclick="addNumber('2')">2</button>
-        <button onclick="addNumber('3')">3</button>
-        <button onclick="addNumber('4')">4</button>
-        <button onclick="addNumber('5')">5</button>
-        <button onclick="addNumber('6')">6</button>
-        <button onclick="addNumber('7')">7</button>
-        <button onclick="addNumber('8')">8</button>
-        <button onclick="addNumber('9')">9</button>
-        <button onclick="addNumber('0')">0</button>
-      </div>
-      <div class="action-buttons">
-        <button onclick="clearNumber()">Borrar</button>
-        <button onclick="showServices()">OK</button>
-      </div>
-      <div class="services-list" id="servicesList">
-        <div class="service-item" onclick="selectService('Retiro de informes')">Retiro de informes</div>
-        <div class="service-item" onclick="selectService('Recepción')">Recepción</div>
-        <div class="service-item" onclick="selectService('Recepción diagnóstico')">Recepción diagnóstico</div>
-        <div class="service-item" onclick="selectService('Turnos')">Turnos</div>
-        <div class="service-item" onclick="selectService('Turnos diagnóstico')">Turnos diagnóstico</div>
-      </div>
+</head>
+<body>
+    <div class="main-container">
+        <div class="contenedor-totem">
+            <h1>SRG</h1>
+            <h3>Ingrese su número de documento</h3>
+            <input type="text" id="numerodocumento" class="form-control" readonly />
+        </div>
+        <div class="contenedor-botones">
+            <button class="btn btn-numero" onclick="agregarNumero('1')">1</button>
+            <button class="btn btn-numero" onclick="agregarNumero('2')">2</button>
+            <button class="btn btn-numero" onclick="agregarNumero('3')">3</button>
+            <button class="btn btn-numero" onclick="agregarNumero('4')">4</button>
+            <button class="btn btn-numero" onclick="agregarNumero('5')">5</button>
+            <button class="btn btn-numero" onclick="agregarNumero('6')">6</button>
+            <button class="btn btn-numero" onclick="agregarNumero('7')">7</button>
+            <button class="btn btn-numero" onclick="agregarNumero('8')">8</button>
+            <button class="btn btn-numero" onclick="agregarNumero('9')">9</button>
+            <button class="btn btn-borrar" onclick="borrarNumero()">Borrar</button>
+            <button class="btn btn-numero zero" onclick="agregarNumero('0')">0</button>
+            <button class="btn btn-ok" onclick="generarTurno()">OK</button>
+        </div>
     </div>
+
     <script src="assets/js/sweetalert2.all.min.js"></script>
     <script src="assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="assets/vendor/js/bootstrap.js"></script>
-    <script src="controllers/totemController.js"></script>
-  </body>
+    <script>
+        function agregarNumero(numero) {
+            const input = document.getElementById('numerodocumento');
+            input.value += numero; // Eliminada la restricción de 8 dígitos
+        }
+
+        function borrarNumero() {
+            const input = document.getElementById('numerodocumento');
+            input.value = input.value.slice(0, -1);
+        }
+
+        function generarTurno() {
+            const numerodocumento = document.getElementById('numerodocumento').value;
+            if (numerodocumento === "") {
+                Swal.fire({
+                    title: '¡Notificación!',
+                    position: 'center',
+                    icon: 'info',
+                    text: 'Por favor ingrese un número de documento',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    backdrop: true,
+                    allowOutsideClick: false
+                });
+            } else {
+                Swal.fire({
+                    title: 'Cargando',
+                    position: 'center',
+                    backdrop: true,
+                    allowOutsideClick: false
+                });
+                Swal.showLoading();
+                setTimeout(() => {
+                    $.ajax({
+                        method: "POST",
+                        dataType: "json",
+                        data: {
+                            "accion": "GenerarTurno",
+                            "numerodocumento": numerodocumento
+                        },
+                        url: "/cursoudemy/models/model_totem.php",
+                    }).then(function (response) {
+                        if (response.status == true) {
+                            Swal.fire({
+                                title: '¡Turno Generado!',
+                                position: 'center',
+                                icon: 'success',
+                                text: 'Aguarde y será llamado por DNI desde la TV',
+                                showConfirmButton: false,
+                                timer: 2000,
+                                backdrop: true,
+                                allowOutsideClick: false
+                            }).then(() => {
+                                document.getElementById('numerodocumento').value = ''; // Limpiar el input después de generar el turno
+                            });
+                        } else {
+                            Swal.fire({
+                                title: '¡Notificación!',
+                                position: 'center',
+                                icon: 'error',
+                                text: 'Error al generar el turno',
+                                showConfirmButton: false,
+                                timer: 1500,
+                                backdrop: true,
+                                allowOutsideClick: false
+                            });
+                        }
+                    }).catch(function (error) {
+                        Swal.fire({
+                            title: '¡Notificación!',
+                            position: 'center',
+                            icon: 'error',
+                            text: 'Error al generar el turno: ' + error.message,
+                            showConfirmButton: false,
+                            timer: 1500,
+                            backdrop: true,
+                            allowOutsideClick: false
+                        });
+                    });
+                }, 1000);
+            }
+        }
+
+        // Forzar un redibujado del contenedor al cargar la página
+        window.addEventListener('load', () => {
+            const contenedorBotones = document.querySelector('.contenedor-botones');
+            contenedorBotones.style.display = 'none';
+            setTimeout(() => {
+                contenedorBotones.style.display = 'grid';
+            }, 0);
+        });
+    </script>
+</body>
 </html>

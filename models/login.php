@@ -3,16 +3,17 @@ session_start();
 
 // Incluir el archivo de conexión
 if (!file_exists('../config/conexion.php')) {
-    $error_message = 'Archivo config/conexion.php no encontrado en login.php. Ruta absoluta buscada: ' . realpath('../config/conexion.php');
-    error_log($error_message);
+    $mensajeError = 'Archivo config/conexion.php no encontrado en login.php. Ruta absoluta buscada: ' . realpath('../config/conexion.php');
+    error_log($mensajeError);
     header('Content-Type: application/json');
-    echo json_encode(['codigo' => 3, 'mensaje' => $error_message]);
+    echo json_encode(['codigo' => 3, 'mensaje' => $mensajeError]);
     exit;
 }
 
 require_once '../config/conexion.php';
 
 if (!isset($_POST['accion']) || $_POST['accion'] != 'LoginUsuario') {
+    error_log("Acción no válida en login.php: " . (isset($_POST['accion']) ? $_POST['accion'] : 'No definida'));
     header('Content-Type: application/json');
     echo json_encode(['codigo' => 4, 'mensaje' => 'Acción no válida.']);
     exit;
@@ -22,9 +23,12 @@ try {
     $conn = getConnection();
 
     $usuario = isset($_POST['usuario']) ? trim($_POST['usuario']) : '';
-    $password = isset($_POST['password']) ? trim($_POST['password']) : '';
+    $contrasena = isset($_POST['password']) ? trim($_POST['password']) : '';
 
-    if (empty($usuario) || empty($password)) {
+    error_log("Intento de inicio de sesión - usuario: $usuario");
+
+    if (empty($usuario) || empty($contrasena)) {
+        error_log("Usuario o contraseña vacíos - usuario: $usuario");
         header('Content-Type: application/json');
         echo json_encode(['codigo' => 1, 'mensaje' => 'Usuario o contraseña vacíos.']);
         exit;
@@ -32,11 +36,14 @@ try {
 
     $stmt = $conn->prepare("SELECT u.usuario, u.nombres, u.apellidos, u.password, u.modulo, u.nivel, u.servicio
                            FROM db_usuarios u
-                           INNER JOIN db_modulos m ON u.modulo = m.id_modulo
-                           INNER JOIN db_servicios s ON u.servicio = s.id
+                           LEFT JOIN db_modulos m ON u.modulo = m.id_modulo
+                           LEFT JOIN db_servicios s ON u.servicio = s.id
+                           LEFT JOIN db_nivel_acceso n ON u.nivel = n.id_nivel
                            WHERE u.usuario = ?");
     if (!$stmt) {
-        throw new Exception('Error al preparar la consulta: ' . $conn->error);
+        $mensajeError = 'Error al preparar la consulta: ' . $conn->error;
+        error_log($mensajeError);
+        throw new Exception($mensajeError);
     }
     $stmt->bind_param("s", $usuario);
     $stmt->execute();
@@ -44,7 +51,9 @@ try {
 
     if ($result->num_rows > 0) {
         $user = $result->fetch_assoc();
-        if (password_verify($password, $user['password'])) {
+        error_log("Usuario encontrado - usuario: $usuario, contraseña en DB: " . $user['password']);
+        if (password_verify($contrasena, $user['password'])) {
+            error_log("Contraseña verificada correctamente - usuario: $usuario");
             $_SESSION['usuario'] = $user['usuario'];
             $_SESSION['nombre'] = $user['nombres'] . ' ' . $user['apellidos'];
             $_SESSION['modulo'] = $user['modulo'];
@@ -58,12 +67,14 @@ try {
                 'modulo' => $user['modulo']
             ];
         } else {
+            error_log("Contraseña incorrecta - usuario: $usuario");
             $respuesta = [
                 'codigo' => 1,
                 'mensaje' => 'Usuario o contraseña incorrectos.'
             ];
         }
     } else {
+        error_log("Usuario no encontrado - usuario: $usuario");
         $respuesta = [
             'codigo' => 2,
             'mensaje' => 'No se logró acceder al sistema.'
@@ -72,15 +83,6 @@ try {
 
     $stmt->close();
     $conn->close();
-
-    // Guardar datos en localStorage
-    if ($respuesta['codigo'] === 0) {
-        echo "<script>
-                localStorage.setItem('usuario', '" . $respuesta['usuario'] . "');
-                localStorage.setItem('servicio', '" . $respuesta['servicio'] . "');
-                localStorage.setItem('modulo', '" . $respuesta['modulo'] . "');
-              </script>";
-    }
 
     header('Content-Type: application/json');
     echo json_encode($respuesta);
